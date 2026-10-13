@@ -5,11 +5,11 @@ A mobile-friendly RSVP app hosted in your Cloudflare account, with source in Git
 ## Features
 
 - Find an invitation by employee number.
-- Outside guests use a unique organizer-generated invitation code.
+- Invited guests find their invitation by full name or a unique organizer-chosen code. Duplicate names require the code.
 - Employees may add one plus-one; the plus-one's full name and birthday are required.
 - Yes/no responses can be updated using the same lookup.
 - Organizer dashboard: employee CSV import, outside guest codes, editable event details, closing/deadline controls, headcounts and CSV export.
-- Guest contact information and the full roster are available only with the organizer access code.
+- Guest contact information and the full roster are available only to signed-in staff.
 
 Employee-number lookup is not identity verification. Anyone who knows a valid number can view that employee's name and update their RSVP. Use this for party logistics, not ID checks. Guest codes should be shared only with their intended guest.
 
@@ -91,3 +91,9 @@ The script `tests/integration.mjs` only accepts a loopback URL and uses disposab
 ## Attendee email exports
 
 Include an optional Email column in the employee CSV. Names exported as Last, First are displayed as First Last. The Attendee emails tab allows staff to add/edit email addresses and export either an attendee CSV (attending invitations with an email) or a deduplicated semicolon-separated address list. Missing addresses are flagged; plus-one invitations are communicated through the employee. No emails are sent by the app.
+
+## Phone RSVPs and response lists
+
+All organizers can use the prominent Add special guest / phone RSVP button to add a guest and confirm attendance. Birthday is optional. The Confirmed above 21 checkbox records the organizer and timestamp; it permits presales for special guests without a birthday, but does not replace the physical ID check required for day-of sales. A known under-21 birthday continues to block alcohol ticket sales.
+
+The Guest list has All invitations, RSVP Yes, RSVP No, and Awaiting RSVP filters with counts. Searching and CSV exports use the selected filter.

@@ -43,6 +43,13 @@
       "when": 1791920509957,
       "tag": "0005_brown_stature",
       "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "6",
+      "when": 1791922705593,
+      "tag": "0006_yielding_emma_frost",
+      "breakpoints": true
     }
   ]
 }
