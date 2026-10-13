@@ -1,1 +1,19 @@
-{"$schema":"node_modules/wrangler/config-schema.json","name":"employee-party-rsvp","main":"worker.ts","compatibility_date":"2026-05-15","compatibility_flags":["nodejs_compat"],"workers_dev":true,"d1_databases":[{"binding":"DB","database_name":"employee-party-rsvp","database_id":"00000000-0000-4000-8000-000000000000","migrations_dir":"drizzle"}]}
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "employee-party-rsvp",
+  "main": "worker.ts",
+  "compatibility_date": "2026-05-15",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "workers_dev": true,
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "employee-party-rsvp",
+      "database_id": "e258066a-9673-43ce-ad9d-7a20dce88284",
+      "migrations_dir": "drizzle"
+    }
+  ],
+  "account_id": "b6e9a43c195de4841e39f99bd6e1734e"
+}
