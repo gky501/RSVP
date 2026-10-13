@@ -6,3 +6,5 @@ select{width:100%;padding:13px;border:1px solid #ccd3cb;border-radius:8px;backgr
 .search-results .search-result.selected.under21{background:#fff0f0!important;border:2px solid #bf303b!important}
 button.confirm-rsvp-cta{background:#f0b84b;color:#35280d;border:2px solid #cc912b;box-shadow:0 3px 10px #b67a2420;font-weight:800}.age-confirmation{padding:16px;background:#edf5e9;border:1px solid #c1d9b9;border-radius:10px;font-weight:700}
 .rsvp-filters{display:flex;gap:10px;flex-wrap:wrap;margin:22px 0 14px}.filter-chip{background:#fff;color:#254737;border:1px solid #d4dfd2;display:flex;gap:14px;align-items:center;padding:12px 16px}.filter-chip strong{background:#e9efe7;border-radius:20px;padding:3px 9px;font-size:12px}.filter-chip.selected{background:#194c37;color:#fff;border-color:#194c37}.filter-chip.selected strong{background:#ffffff20;color:white}
+
+tr.row-plus-one td{background:#eef3fb}tr.row-plus-one td:first-child{border-left:4px solid #8ba4ca;padding-left:22px}.plus-one-label{background:#dce7f7;color:#344e76}tr.row-plus-one.row-under21 td{background:#fff0f0}tr.row-plus-one.row-under21 td:first-child{border-left-color:#c43b3b}
