@@ -1,0 +1,2 @@
+export function ageAt(birthday:string|undefined,date:string){if(!birthday)return null;const [by,bm,bd]=birthday.split('-').map(Number),[y,m,d]=date.split('-').map(Number);return y-by-(m<bm||(m===bm&&d<bd)?1:0)}
+export function birthdayISO(value:string){const s=value.trim();if(/^\d{4}-\d{2}-\d{2}$/.test(s))return s;const m=/^(\d{1,2})[\/-](\d{1,2})[\/-](\d{4})$/.exec(s);if(!m)throw Error('Birthdays must use MM/DD/YYYY or YYYY-MM-DD with a four-digit year.');return m[3]+'-'+m[1].padStart(2,'0')+'-'+m[2].padStart(2,'0')}
