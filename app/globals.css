@@ -38,3 +38,5 @@ textarea{width:100%;padding:13px;border:1px solid #ccd3cb;border-radius:8px;font
 .song-moderation{padding:10px 0;border-bottom:1px solid #e0e5dd}.song-moderation:last-child{border-bottom:0}.song-moderation>strong,.song-moderation>span{display:block;font-size:12px}.song-moderation .actions{gap:6px;margin-top:8px}.song-moderation button{padding:8px 10px;font-size:11px}
 
 .my-songs li{display:flex;justify-content:space-between;align-items:center;gap:14px;padding:10px 0;border-bottom:1px solid #dce4db}.my-songs ul{padding:0;list-style:none}.my-songs button{font-size:12px;padding:8px 12px}
+
+@media(max-width:500px){.song-section input{font-size:16px}.song-section .actions>button{min-height:44px}.song-result button{min-height:44px}.song-results{-webkit-overflow-scrolling:touch;overscroll-behavior:contain}.song-result-copy{overflow-wrap:anywhere}}
