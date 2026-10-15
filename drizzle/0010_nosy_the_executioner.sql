@@ -1,0 +1,1 @@
+ALTER TABLE `song_suggestions` ADD `withdrawn` integer DEFAULT 0 NOT NULL;
